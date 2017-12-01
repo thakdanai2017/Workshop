@@ -10,10 +10,10 @@ ${GOOGLE URL}    https://codepen.io/brian-baum/full/BqEyL/
     Open Browser    ${GOOGLE URL}    ${BROWSER}
 
 *** Testcases ***
-Search
+Check all required fields
     เข้าไป codepen.io
+    Click Link      link=add
     
-    Click Link      link=/{{add}}
     
 
 # Test Teardown    Close Browser
